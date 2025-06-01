@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "386585257549",
+    "project_id": "budgetpalwoutermerckaert",
+    "storage_bucket": "budgetpalwoutermerckaert.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386585257549:android:4fd65dba7328061905de04",
+        "android_client_info": {
+          "package_name": "com.anonymous.BudgetPalWouterMerckaert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386585257549-t1vf7la2vj19lcqknvj7fv201h1j9v2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.BudgetPalWouterMerckaert",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "386585257549-dpulc88rjqv99teaduflparhi5vmabqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuaj9vXRDK-sHq9m8qRoU1QkdSx2ABCUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386585257549-dpulc88rjqv99teaduflparhi5vmabqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

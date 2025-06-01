@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "BudgetPalWouterMerckaert",
+    "slug": "BudgetPalWouterMerckaert",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/BudgetPal.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/BudgetPal.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.BudgetPalWouterMerckaert",
+      "infoPlist": {
+        "NSCameraUsageDescription": "$(PRODUCT_NAME) needs access to your Camera."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/BudgetPal.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.BudgetPalWouterMerckaert",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/BudgetPal.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-google-signin/google-signin",
+      "expo-font",
+      "expo-barcode-scanner",
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9068f70f-ef16-49fd-b670-7f89ebbe3d94"
+      }
+    },
+    "owner": "r0935364"
+  }
+}
